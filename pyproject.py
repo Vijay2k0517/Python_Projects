@@ -7,6 +7,7 @@ num2 = int(input('Enter the 2nd number: '))
 print('Select operation!')
 print('1: Addition')
 print('2: Subtraction')
+
 print('3: Multiplication')
 print('4: Division')
 
