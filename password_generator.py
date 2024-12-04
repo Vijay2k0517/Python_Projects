@@ -1,12 +1,15 @@
-import random
-import string
+def passwordGenerator():
+    import random
+    import string
 
-length = int(input("Enter the lenth of the password:"))
+    length = int(input("Enter the lenth of the password:"))
 
-chars = string.ascii_letters
-chars += string.digits
-chars += string.punctuation
+    chars = string.ascii_letters
+    chars += string.digits
+    chars += string.punctuation
 
-password = "".join([random.choice(chars) for i in range(length)])
+    password = "".join([random.choice(chars) for i in range(length)])
 
-print ("Your password is:", password)
+    print ("Your password is:", password)
+
+passwordGenerator()
